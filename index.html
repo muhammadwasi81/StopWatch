@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    
+<!-- start of stop watch -->
+
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col sm-3 text-center" id="down">
+    <button type="button" class="btn btn-primary border" onclick="start()">Start</button>
+    <button type="button" class="btn btn-secondary border" onclick="pause()">Pause</button>
+    <button type="button" class="btn btn-warning border" onclick="stop()">Reset</button>
+
+    <button type="button" class="btn btn-info border" onclick="restart()">Restart</button>
+    <button type="button" class="btn btn-danger border" onclick="laps()">Lap</button>
+    <button type="button" class="btn btn-success border" id="neechy" onclick="resetlaps()">Lap Reset</button>
+    <p class="display-3 stopwatch">00:00:00</p>
+     <ul class="laps"></ul>
+     <p id="wasi">Developer: Muhammad wasi</p>
+  </div>
+</div>
+  </div>
+
+  <!-- end of calculator -->
+
+
+
+
+   
+
+
+
+
+</body>
+<script src="app.js">
+</script>
+</html>

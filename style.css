@@ -1,0 +1,39 @@
+
+/* Muhammad wasi */
+.container-fluid ,body{
+   color: #f6f6f6;
+   width: auto !important;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.stopwatch{
+    font-size: 16em;
+    font-family: monospace;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+#down{
+    margin-top: 10rem !important;
+
+}
+
+@media screen and (min-width: 360px) {
+    #neechy{
+        margin-top: 5px;
+    }
+}
+
+#wasi{
+    font-size: 30px;
+}
+
+/* ----------end of code----------------------- */
+
